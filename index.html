@@ -76,7 +76,7 @@
       <!-- ---------practice area-------- -->
 
       <section class="pt-8">
-         <div class="w-[60%] mx-auto text-center space-y-5">
+         <div class="md:w-[60%] w-full mx-auto text-center space-y-5">
             <h2 class="eb text-4xl font-semibold text-center">The Legal Practice Area</h2>
             <p class="pb-16">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
          </div>
@@ -141,7 +141,7 @@
       <!-- ---------client-------- -->
 
       <section class="pt-24 ">
-         <div class="text-center w-[60%] mx-auto">
+         <div class="text-center md:w-[60%] w-full mx-auto">
             <h2 class="text-4xl eb pb-2">What Our Client Says</h2>
             <p class="text-gray-500 font-normal pb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
          </div>
@@ -171,12 +171,12 @@
 
       <!-- ----------FAQ---------- -->
       <section>
-         <div class="text-center w-[60%] mx-auto">
+         <div class="text-center md:w-[60%] w-full mx-auto">
             <h2 class="text-4xl eb pb-2">Frequently Asked Any Questions</h2>
             <p class="text-gray-500 font-normal pb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
          </div>
 
-         <div class="flex items-center justify-between gap-x-12">
+         <div class="flex items-center justify-between gap-x-12 flex-col md:flex-row">
             <div class="basis-[50%] space-y-4">
                <div class="collapse collapse-plus bg-base-200">
                   <input type="radio" name="my-accordion-3" checked="checked" /> 
@@ -226,6 +226,74 @@
       </section>
 
       <!-- ----------contact-------- -->
+
+      <section>
+         <div class="text-center md:w-[60%] w-full mx-auto">
+            <h2 class="text-4xl eb pb-2">Contact With Us</h2>
+            <p class="text-gray-500 font-normal pb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+         </div>
+
+         <div class="flex sm:flex-row flex-col justify-between gap-4">
+            <div class="flex-1">
+               <div class="grid md:grid-cols-2 grid-cols-1">
+                  <div class="bg-[#F3F3F3] p-10  text-center border-r-[#CFCFCF] border border-b-[#CFCFCF]">
+                     <div class="flex justify-center pb-4">
+                        <img src="img/address.png">
+                     </div>
+                     <h2 class="font-semibold  text-xl">Address</h2>
+                     <p>A108 Adam Street,<br>New York, NY 535022</p>
+                  </div>
+   
+                  <div class="bg-[#F3F3F3] p-10  text-center  border border-b-[#CFCFCF]">
+                     <div class="flex justify-center pb-4">
+                        <img src="img/call.png">
+                     </div>
+                     <h2 class="font-semibold  text-xl">Call Us</h2>
+                     <p>A108 Adam Street,<br>New York, NY 535022</p>
+                  </div>
+   
+                  <div class="bg-[#F3F3F3] p-10  text-center border-r-[#CFCFCF] border">
+                     <div class="flex justify-center pb-4">
+                        <img src="img/email.png">
+                     </div>
+                     <h2 class="font-semibold  text-xl">Email Us</h2>
+                     <p>A108 Adam Street,<br>New York, NY 535022</p>
+                  </div>
+   
+                  <div class="bg-[#F3F3F3] p-10  text-center b">
+                     <div class="flex justify-center pb-4">
+                        <img src="img/time.png">
+                     </div>
+                     <h2 class="font-semibold  text-xl">Working Hours</h2>
+                     <p>A108 Adam Street,<br>New York, NY 535022</p>
+                  </div>
+   
+   
+               </div>
+            </div>
+            <div class="flex-1 mt-6 sm:mt-0">
+               <form class="w-full space-y-5">
+                  <input type="text" placeholder="Your Name" class="w-full p-2 bg-[#F3F3F3] outline-none border border-gray-200 text-[17px]">
+                  <input type="text" placeholder="Your Name" class="w-full p-2 bg-[#F3F3F3] outline-none border border-gray-200 text-[17px]">
+                  <select class="w-full p-2 bg-[#F3F3F3] outline-none border border-gray-200 text-[17px]">
+                     <option value="">Your Subject</option>
+                     <option value="Business Law">Business Law</option>
+                     <option value="Criminal Law">Criminal Law</option>
+                     <option value="Child Support">Child Support</option>
+                     <option value="Education Law">Education Law</option>
+                     <option value="Divorce Law">Divorce Law</option>
+                     <option value="Tax Law">Tax Law</option>
+
+                  </select>
+                  <textarea name="" id="" cols="30" rows="5" class="w-full p-2 bg-[#F3F3F3] outline-none border border-gray-200 text-[17px]" placeholder="Write Your Massage"></textarea>
+                  <button class="bg-[#B68C5A] text-white py-2 px-6 rounded-lg font-normal w-full hover:bg-[#a47f52]">Free Consultation</button>
+               </form>
+
+            </div>
+
+         </div>
+      </section>
+
 
 
    </main>
